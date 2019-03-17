@@ -6,13 +6,7 @@
         {
             "label": "build debug.exe",
             "type": "shell",
-            "command": "g++",
-            "args": [
-                "-g",
-                "hello_world.cpp",
-                "-o",
-                "debug.exe"
-            ]
+            "command": "D:\\mingw\\mingw64\\bin\\mingw32-make.exe"
         }
     ]
 }
