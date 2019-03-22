@@ -1,3 +1,4 @@
 {
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "cmake.cmakePath": "D:\\CMake\\bin\\cmake.exe"
 }
