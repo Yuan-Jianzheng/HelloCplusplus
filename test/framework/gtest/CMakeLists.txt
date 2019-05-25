@@ -1,3 +1,5 @@
+add_compile_options(-std=c++11)
+
 set(SOURCE_LIST "${CMAKE_CURRENT_SOURCE_DIR}/src/gtest-all.cc")
 
 include_directories(
