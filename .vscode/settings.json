@@ -1,4 +1,5 @@
 {
     "breadcrumbs.enabled": true,
-    "cmake.cmakePath": "D:\\CMake\\bin\\cmake.exe"
+    "cmake.cmakePath": "D:\\CMake\\bin\\cmake.exe",
+    "cmake.sourceDirectory": "${workspaceRoot}/test"
 }
