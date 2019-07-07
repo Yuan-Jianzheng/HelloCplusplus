@@ -7,4 +7,6 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_library(gtest STATIC ${SOURCE_LIST})
+SET(LIBRARY_OUTPUT_PATH ${CMAKE_TARGET_ROOT})
+
+add_library(gtest SHARED ${SOURCE_LIST})
