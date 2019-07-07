@@ -12,5 +12,7 @@ IDE:VS Code
 
 调试：进行上述配置后，先使用cmake进行编译后，就可直接进行调试操作
 
+测试框架：使用google测试框架(gmock and gtest)，并将其作为动态库使用
+
 用例：增加gtest测试套件支持
 
