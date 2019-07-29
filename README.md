@@ -16,3 +16,5 @@ IDE:VS Code
 
 用例：增加gtest测试套件支持
 
+-std=c++11 -> -std=gnu++11 以满足cygwin中使用cmake的场景
+
