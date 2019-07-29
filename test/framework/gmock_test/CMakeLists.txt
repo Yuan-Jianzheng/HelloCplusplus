@@ -1,4 +1,4 @@
-add_compile_options(-std=c++11)
+add_compile_options(-std=gnu++11)
 
 set(SOURCE_LIST "${CMAKE_CURRENT_SOURCE_DIR}/gtest/src/gtest-all.cc")
 list(APPEND SOURCE_LIST "${CMAKE_CURRENT_SOURCE_DIR}/gmock/src/gmock-all.cc")
