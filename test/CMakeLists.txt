@@ -1,6 +1,6 @@
 project(test)
 
-add_compile_options(-std=gnu++11)
+include(${CMAKE_CURRENT_SOURCE_DIR}/env_setting.cmake)
 
 set(CMAKE_TARGET_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/build)
 set(CMAKE_TEST_CODE_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
