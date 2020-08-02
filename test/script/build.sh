@@ -8,8 +8,9 @@ if [ ! -d ${buildDir} ]; then
 fi
 
 cd ${buildDir}
+rm -rf ./debug
 
 cmake ..
 cmake --build .
 
-./debug.exe
+./debug
