@@ -56,7 +56,7 @@
 #endif
 
 template <bool condition>
-struct static_assert
+struct Static_assert
 {
     typedef int static_assert_failure[condition ? 1 : -1];
 };
