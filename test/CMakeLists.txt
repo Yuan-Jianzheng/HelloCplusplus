@@ -13,6 +13,8 @@ include_directories(
     ${CMAKE_TEST_CODE_ROOT}/framework/gmock_test/gtest/include
     ${CMAKE_PRODUCTION_CODE_ROOT}/include
     ${CMAKE_TEST_CODE_ROOT}/framework/gmock_test/gmock/include
+    ${CMAKE_TEST_CODE_ROOT}/framework/mockcpp/include
+    ${CMAKE_TEST_CODE_ROOT}/framework/mockcpp/3rdparty
 )
 
 set(ALL_SRC_FILES ${CMAKE_TEST_CODE_ROOT}/main.cpp)
@@ -25,4 +27,4 @@ SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_TARGET_ROOT})
 
 add_executable(debug ${ALL_SRC_FILES})
 
-target_link_libraries(debug gmock-test pthread)
+target_link_libraries(debug gmock-test pthread mockcpp)
